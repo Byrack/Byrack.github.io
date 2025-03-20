@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Consolas", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)),
+    url("/Byrack.github.io/Media/dirt.png");
+}
