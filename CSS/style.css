@@ -42,8 +42,8 @@ body {
     display: flex;
 
     padding-left: 20px;
-    color: white;
     height: fit-content;
+    background-image: linear-gradient(to bottom, black, transparent);
 }
 .firefox {
     font-family: Michroma;
