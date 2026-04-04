@@ -17,10 +17,8 @@ h2 {
 }
 body {
     background-color: black;
-    background-image: url(../Media/fox.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: radial-gradient(circle at right, goldenrod, darkorange);
+    background-position: right;
 }
 
 .site {
@@ -88,7 +86,7 @@ body {
     font-family: Workbench;
     font-weight: 100;
     font-size: 18pt;
-    color: orange;
+    color: rgba(255, 166, 0, 0.5);
     
     background-image: linear-gradient(to bottom, black, gray, black, black, dimgray);
     box-shadow: 0px 0px 20px black inset;
@@ -113,10 +111,71 @@ body {
 
 
 .middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     margin-top: 20px;
     margin-left: 30%;
     height: 500px;
-    width: 35%;
+    width: 35%; 
+}
+.decoration {
+    flex: 1;
+    width: 400px;
+}
+.search {
+    flex: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+.searchcontainter{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    border-radius: 45px;
+    background-image: linear-gradient(to bottom, gray, white, gray, dimgray, rgb(68, 68, 68));
+    box-sizing: border-box;
+
+    box-shadow: 10px 10px 30px black;
+}
+input.searchbar {
+    font-family: Workbench;
+    font-weight: 100;
+    font-size: 18pt; /* ~24px */
+    color: orange;
+    letter-spacing: 3px;
+
+    padding: 20px;
+    background-image: linear-gradient(to bottom, black, gray, black, black, dimgray);
+    border-radius: 35px;
+    border: 3px inset silver;
+}
+button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: 3px inset lightgray;
+    background-color: silver;
+    box-shadow: 0px 0px 10px black inset;
+
+    color:  dimgray;
+    font-size: 10pt;
+    font-family: Michroma;
+}
+button:hover {
+    background-color: lightgray;
+    box-shadow: 0px 0px 5px black inset;
+    font-size: 11pt;
 }
 
 
@@ -162,15 +221,17 @@ h1 {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     color: orange;
+    text-shadow: 0px 2px 5px goldenrod;
 }
 .link {
     font-family: Workbench;
     font-weight: 100;
     font-size: 18pt;
     text-decoration: none;
-    color: orange;
+    color: rgba(255, 166, 0, 0.5);
 }
 .link:hover {
+    color: orange;
     text-shadow: 0px 2px 5px goldenrod;
 }
 
