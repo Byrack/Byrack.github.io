@@ -17,8 +17,10 @@ h2 {
 }
 body {
     background-color: black;
-    background-image: radial-gradient(circle at right, goldenrod, darkorange);
-    background-position: right;
+    background-image: url(../Media/background.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
