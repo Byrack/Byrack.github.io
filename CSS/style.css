@@ -21,11 +21,15 @@ body {
     background-position: right;
 }
 
+
+
 .site {
     width: 100vw;
     height: 100vh;
     background-image: radial-gradient(circle at top, transparent, black);
 }
+
+
 
 .top {
     margin-left: 30%;
@@ -110,19 +114,20 @@ body {
 }
 
 
+
 .middle {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
     margin-top: 20px;
     margin-left: 30%;
-    height: 500px;
+    height: 350px;
     width: 35%; 
 }
 .decoration {
     flex: 1;
-    width: 400px;
+    height: 100%;
 }
 .search {
     flex: 1;
